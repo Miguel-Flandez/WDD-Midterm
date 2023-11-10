@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header {
+    background-color: #3498db; /* Blue */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    background-color: #3498db; /* Blue */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.profile-section {
+    float: left;
+    width: 30%;
+}
+
+.profile-section img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.profile-section li {
+    margin-bottom: 10px;
+}
+
+.content-section {
+    float: left;
+    width: 65%;
+    padding-left: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    padding: 10px;
+    background-color: #e44d26; /* Coral Red */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d43b1f; /* Darker Coral Red */
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>User Registration</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>User Registration</h1>
+    </header>
+
+    <div class="registration-box">
+      <form action="register.php" method="post">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="picture">Profile Picture:</label>
+        <input type="file" id="picture" name="picture">
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit" name="submit">Register</button>
+      </form>
+    </div>
+
+    <footer>
+      <p>&copy; 2023 Your Website</p>
+    </footer>
+  </div>
+</body>
+
+</html>
